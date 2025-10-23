@@ -36,6 +36,8 @@ requirements:
       then: python-abi3
     - maturin >=1.2.2,<2
     - pip
+    - if: unix
+      then: openssl
   run:
     - python
     - pixi-build-api-version >=2,<3
