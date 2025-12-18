@@ -2,7 +2,7 @@
 context:
   name: py-pixi-build-backend
   python_name: pixi_build_backend
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/prefix-dev/pixi-build-backends/archive/refs/tags/py-pixi-build-backend-v${{ version }}.tar.gz
-  sha256: 7157e912fa45e733048c860834383d2ea22768c633108aa0cc8b24dfa5fdbd2f
+  sha256: c7c4bfe7442e80da23c20b248e80c4237293e77c859d525c2c3dd4e565a2b96f
 
 build:
   number: 0
