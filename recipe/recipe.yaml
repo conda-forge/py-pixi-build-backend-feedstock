@@ -40,7 +40,7 @@ requirements:
       then: openssl
   run:
     - python
-    - pixi-build-api-version >=2,<3
+    - pixi-build-api-version >=4,<5
 
 tests:
   - python:
