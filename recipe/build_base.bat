@@ -5,7 +5,7 @@ set CARGO_PROFILE_RELEASE_STRIP=symbols
 set CARGO_PROFILE_RELEASE_LTO=fat
 
 :: Navigate to the source
-cd py-pixi-build-backend
+cd pixi-build-backends\py-pixi-build-backend
 
 :: Avoid path length issues
 set "CARGO_HOME=C:\ch-%RANDOM%"

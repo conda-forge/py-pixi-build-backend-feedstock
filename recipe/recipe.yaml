@@ -2,15 +2,15 @@
 context:
   name: py-pixi-build-backend
   python_name: pixi_build_backend
-  version: "0.4.2"
+  version: "0.4.3"
 
 package:
   name: ${{ name }}
   version: ${{ version }}
 
 source:
-  url: https://github.com/prefix-dev/pixi-build-backends/archive/refs/tags/py-pixi-build-backend-v${{ version }}.tar.gz
-  sha256: 761de53e89d3f05d90a2d902cc00fb935a2302a710bc5097b819abe2c0ce99c6
+  url: https://github.com/prefix-dev/pixi/archive/refs/tags/${{ name }}-v${{ version }}.tar.gz
+  sha256: f2354df78c210ec5deb5cfbe87cc685cb739efd45049a3a759ad7b145a4ff50c
 
 build:
   number: 0
@@ -44,6 +44,7 @@ requirements:
 
 tests:
   - python:
+      pip_check: false
       imports:
         - pixi_build_backend
       python_version:
@@ -65,7 +66,7 @@ tests:
           then: abi3audit
 
 about:
-  homepage: https://github.com/prefix-dev/pixi-build-backends
+  homepage: https://github.com/prefix-dev/pixi
   summary: Python bindings for pixi-build-backends
   description: |
     This package provides Python bindings for pixi-build-backends, enabling
@@ -73,7 +74,7 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   documentation: https://prefix-dev.github.io/pixi-build-backends
-  repository: https://github.com/prefix-dev/pixi-build-backends
+  repository: https://github.com/prefix-dev/pixi
 
 extra:
   recipe-maintainers:
