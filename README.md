@@ -3,13 +3,13 @@ About py-pixi-build-backend-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-pixi-build-backend-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/prefix-dev/pixi-build-backends
+Home: https://github.com/prefix-dev/pixi
 
 Package license: BSD-3-Clause
 
 Summary: Python bindings for pixi-build-backends
 
-Development: https://github.com/prefix-dev/pixi-build-backends
+Development: https://github.com/prefix-dev/pixi
 
 Documentation: https://prefix-dev.github.io/pixi-build-backends
 
