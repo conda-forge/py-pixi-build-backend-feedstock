@@ -82,7 +82,4 @@ about:
 
 extra:
   recipe-maintainers:
-  - baszalmstra
-  - tdejager
-  - ruben-arts
-  - Hofer-Julian
+  - conda-forge/pixi
